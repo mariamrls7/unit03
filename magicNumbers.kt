@@ -11,4 +11,3 @@ else {
     print('This date is not magic!')
 	}
 }
-}
