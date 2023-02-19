@@ -1,13 +1,14 @@
-var
-month = int('Enter a month (in numeric form)')
-day = int("Enter a day"); 
-year = int("Enter two-digit year:");
+fun main() {
+  
+var month = int('Enter a month (in numeric form): ');
+var	day = int('Enter a day: '); 
+var	year = int('Enter two-digit year: ');
 
-if month * day == year:
-    print("This date is magic!");
-else: 
-    print("This date is not magic!")
-
-enter month = 6
-enter day = 10
-enter year = 60
+if (month * day == year) {
+    print('This date is magic!')
+    }
+else {
+    print('This date is not magic!')
+	}
+}
+}
