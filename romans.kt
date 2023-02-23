@@ -1,15 +1,4 @@
-val romanNumerals = mapOf(
-       1 to "I",
-       2 to "II",
-       3 to "III",
-       4 to "IV",
-       5 to "V",
-       6 to "VI",
-       7 to "VII",
-       8 to "VIII",
-       9 to "IX",
-       10 to "X"
-)
+val romanNumerals = mapOf(10 to "X", 9 to "IX", 8 to "VII", 7 to "VII", 6 to "VI", 5 to "V", 4 to "IV", 3 to "III", 2 to "II", 1 to "I")
 
 fun encode(number: Int): String? {
     if (number > 11 || number < 0) {
@@ -28,5 +17,5 @@ fun encode(number: Int): String? {
 
 fun main(args: Array<String>) {
     println(encode(12))
-    println(encode(10))
+    println(encode(7))
 }
