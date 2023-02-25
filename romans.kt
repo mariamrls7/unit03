@@ -18,4 +18,6 @@ fun encode(number: Int): String? {
 fun main(args: Array<String>) {
     println(encode(12))
     println(encode(7))
+    println(encode(-5))
+    println(encode(4))
 }
